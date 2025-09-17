@@ -16,3 +16,6 @@ EXPOSE 80
 # 启动应用
 # -cp 使用相对路径，更简洁
 CMD java -Xverify:none -cp ./config:./lib/* com.kakarote.crm9.Application
+
+# 运行应用
+ENTRYPOINT ["java","-jar","/app.jar"]
