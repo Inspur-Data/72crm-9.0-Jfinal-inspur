@@ -5,7 +5,13 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+    
+  workflow_dispatch:
+    inputs:
+      run_e2e:
+        description: 'Force e2e to run'
+        required: false
+        type: boolean
 env:
   DOCKER_IMAGE_NAME: your-java-app
   IMAGE_TAG: latest
