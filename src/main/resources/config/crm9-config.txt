@@ -1,5 +1,6 @@
 #database
-mysql.jdbcUrl = jdbc:mysql://${mysqldb}/crm9?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false
-mysql.user = ${mysqluser}
-mysql.password = ${mysqlpassword}
+mysql.jdbcUrl = jdbc:mysql://crm-release-mariadb-galera.test:3306/crm9?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false
+mysql.user = root
+mysql.password = inspur
 jfinal.devMode = false
+
