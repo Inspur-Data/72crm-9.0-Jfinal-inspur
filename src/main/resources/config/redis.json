@@ -3,7 +3,7 @@
   "remarks":"1为单机版，2为cluster集群，3为sentinel集群",
   "cacheName":"master",
   "host":[
-    "${redisdb}"
+    "redis.test:6379"
   ],
   "password":"",
   "database":0
